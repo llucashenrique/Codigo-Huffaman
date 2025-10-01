@@ -250,3 +250,61 @@ Quando chega a um nó folha, significa que encontrou um caractere original. Esse
 ### 📊 UML (Unified Modeling Language) DO CÓDIGO
 
 ![uml](./imagens/Huffaman-diagrama%20(1).png)
+
+## 🚀 Como Usar o Código Huffman
+
+### ✅ Pré-requisitos
+
+Antes de executar o projeto, certifique-se de ter os seguintes itens instalados:
+
+- **Java JDK 17** ou superior
+- **IDE** compatível com Java (como IntelliJ IDEA, **Eclipse** ou **VS Code** com extensão **Java**)
+Git (para clonar o repositório).
+- Arquivo de texto **(.txt)** com o conteúdo que será comprimido (ex: Huffman_Coding.txt)
+
+### 📦 Clonando o Repositório
+
+```bash
+git clone https://github.com/llucashenrique/Codigo-Huffaman.git
+cd seu-repositorio-huffman
+```
+
+### 📁 Estrutura Esperada
+
+```bash
+├── src/
+    └── Huffaman.java
+    └── HuffmanDecoder.java
+    └── NoHuffman.java
+    └──  
+├── pdf/
+    └── Projeto Codificação de Huffman.pdf
+    └── TheEleganceOfEfficiency-TheFundamentalImportanceOfHuffmanCoding.pdf
+└── imagens/
+    └── Huffaman-diagrama
+└── text/
+     └── File_Coding.chf
+     └── Huffaman_Coding.txt
+ ```
+
+ ### ▶️ Executando o Projeto
+
+ - Abra o projeto na sua IDE Java
+- Compile os **arquivos .java**
+- Execute a classe **Huffaman**, que contém o método main()
+
+### 🔄 Fluxo de Execução
+
+- Leitura do arquivo .txt com o texto original
+- Contagem de frequência de cada caractere
+- Construção da árvore de Huffman
+- Geração dos códigos binários
+- Codificação do texto original
+- Salvamento do texto comprimido em .chf
+- Decodificação do texto comprimido
+- Exibição do texto original reconstruído
+
+### 📂 Arquivos Gerados
+
+- file_coding.chf: contém o texto codificado em binário
+- Saída no console: mostra o texto original, frequências, códigos de Huffman e texto decodificado.
