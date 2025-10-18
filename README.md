@@ -1,5 +1,8 @@
 # Documentação da Código Huffman
 
+## Integrantes
+ - Lucas Henrique Peres Lino
+   
 ## Introdução
 
 ### Classe NoHuffman
